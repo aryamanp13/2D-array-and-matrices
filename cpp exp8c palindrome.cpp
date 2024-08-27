@@ -22,3 +22,7 @@ int main(){
     else
         cout << "The String is a Palindrome";
 }
+/*output
+Enter the String you want to check:
+tablet
+The String is not a Palindrome */
