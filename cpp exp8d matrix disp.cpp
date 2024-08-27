@@ -30,3 +30,22 @@ int main()
 		cout<<endl;
 	}
 }
+/*output
+Enter the number of rows:
+3
+Enter the number of columns:
+3
+enter the elements of the 2D array:
+Elements[0][0]:1
+Elements[0][1]:2
+Elements[0][2]:3
+Elements[1][0]:4
+Elements[1][1]:5
+Elements[1][2]:6
+Elements[2][0]:7
+Elements[2][1]:8
+Elements[2][2]:9
+The 2D array is:
+1 2 3
+4 5 6
+7 8 9 */
