@@ -15,3 +15,7 @@ int main()
 		cout<<a[i];
 	}
 }
+/*output
+Enter the string:
+programming
+gnimmargorp */
