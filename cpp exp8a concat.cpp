@@ -14,3 +14,9 @@ int main()
 	result = s1 + s2;
 	cout<<"Result string: "<<result;
 }
+/*output
+Enter string s1:
+hello
+Enter string s2:
+world
+Result string: helloworld */
