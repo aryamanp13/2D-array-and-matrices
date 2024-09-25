@@ -1,36 +1,53 @@
-# Aim: To study and implement C++ 2D Array - Matrices
+# Aim: To study and implement string and array
 
 
 ## Theory:
-2D array: In C++, a 2D array is essentially a collection of elements arranged in rows and columns. It's a data structure that can be visualized as a table or matrix.They are stored in contiguous memory locations. The elements are stored in row-major order, meaning the elements of the first row are stored followed by the elements of the second row, and so on.
 
-Matrix: A 2D array is a collection of elements arranged in rows and columns, similar to a spreadsheet or table. Each element in the array is identified by its row and column indices. C++ doesn't have built-in functions for matrix operations like addition, subtraction, multiplication, or inversion. However, you can implement these operations using loops and nested loops
+Arrays in C++
+An array is a data structure of elements with same data type stored at contiguous memory locations.Arrays are used to store multiple values in a single variable, making it easier to manage large sets of data.
 
+Strings in C++
+Strings are sequences of characters used to store text. In C++, the string class is defined in the <string> header file. There are two types of strings in C++ :
+std : : string
 
-## Algorithm(for 8d):
-1. Start
-   
-2.Include necessary header:
-Include the iostream header to perform input/output operations.
-Declare variables:
+Features:
 
-3.Declare integer variables rows and cols to store the dimensions of the 2D array.
-Get dimensions from user:
-Prompt the user to enter the number of rows and columns.
-Read the user's input and store it in rows and cols.
+Iteration: Strings support iterations for traversing thier contents.
+Concatenation: Strings can be concatenated using the + operator.
+Indexing: Strings support indexing, allowing access to individual characters using the [] operator.
+Comparison: Strings can be compared using operators (==, !=, <, >, etc.).
+Modification: Characters in a string can be modified through direct indexing.
 
-4.Allocate memory dynamically:
-Create a double pointer array to store the 2D array.
-Allocate memory for the rows of the array using new int*[rows].
-Allocate memory for each column within each row using new int[cols].
+Features :
 
-5.Get elements from user:
-Prompt the user to enter the elements of the array.
-Use nested loops to iterate over each row and column.
-Read the user's input and store it in the corresponding element of the array.
+Fixed size: The size of an array after being defined cannot be changed later.
+Contiguous memory allocation: All elements are stored in continuous memory blocks.
+Index-based: Array elements can be accessed using thier indices.
+## Algorithm : Palindrome
 
-6.Print the 2D array:
-Use nested loops to iterate over each row and column.
-Print the elements of the array in a tabular format.
+1.Checking Palindrome
+Input the String:
+Ask the user to enter a string.
 
-7. Stop
+2.Initialize Variables:
+Store the input string in a variable, a.
+
+Initialize an empty string, revstr.
+
+3.Determine the Length:
+Calculate the length of a and store it in length.
+
+4.Reverse the String:
+
+Loop from the end of the string to the beginning:
+Append each character to revstr.
+
+5.Compare the Strings:
+
+Compare the original string a with the reversed revstr.
+If a == revstr, the string is a palindrome.
+Else not a palindrome.
+
+6.Output the Result:
+
+Print whether the string is a palindrome or not based on the comparison.
